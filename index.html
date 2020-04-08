@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carga de Excel</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-reboot.min.css">
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/jquery-3.4.1.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col"></div>
+            <div class="col-xs-10">
+                <div class="panel-body">
+                    <p>Carga de documento</p>
+                    <p>
+                        <img class="img-circle img-responsive center-block" src="img/secun.png" alt="Logo">
+                    </p>
+                    <form action="load.php" method="POST" enctype="multipart/form-data">
+                        <input type="file" name="archivo">
+                        <br><br>
+                        <input type="submit" value="Calcular ISR" name="isr">
+                        <input type="submit" value="Calculo inverso ISR" name="isrI"> -->
+                    </form>
+                </div>
+            </div>
+            <div class="col"></div>
+        </div>
+    </div>
+</body>
+
+</html>
