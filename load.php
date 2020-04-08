@@ -160,7 +160,7 @@ echo " <br> NETO TOTAL:".number_format($netoTotal, 2, '.', '');
                 $('#iddataTable').DataTable({
                     dom: 'Bfrtip',
                     buttons: [
-                        'copy', 'csv', 'excel', 'pdf', 'print'
+                        'copy','csv', 'excel', 'pdf', 'print'
                     ]
                 });
             });
