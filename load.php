@@ -68,7 +68,7 @@
                     require_once 'PHPExcel/Classes/PHPExcel.php';
                     require_once 'functions.php';
                     require_once 'scripts.php';
-
+                    error_reporting(0);
                     $archivo = $_FILES["archivo"];
                     $url = $archivo["tmp_name"];
                     $dataArray = array();
