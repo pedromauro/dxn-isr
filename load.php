@@ -58,11 +58,11 @@
             }      
         ?>
 
-        <div class="panel panel-primary">
-            <div class="panel-heading">
-                <h3 class="panel-title">Resultados de archivo de Excel.</h3>
+        <div class="panel panel-dark">
+            <div class="panel-heading bg-dark">
+                <h3 class="panel-title" style="color:rgb(255, 255, 255); font-weight:bold;">Resultados de archivo de Excel.</h3>
             </div>
-            <div class="panel-body">
+            <div class="panel-body ">
                 <div>
                     <?php
                     require_once 'PHPExcel/Classes/PHPExcel.php';
@@ -98,7 +98,7 @@
                     }
                     echo '<div>
                     <table class="table table-hover table-condensed" id="iddataTable" style="text-align:center;">
-                    <thead style="background-color:#3175B0; color:rgb(255, 255, 255);font-weight:bold;">
+                    <thead style="background-color:#343A40; color:rgb(255, 255, 255);font-weight:bold;">
                     <tr>
                     <td>#</td>
                     <td>MIEMBRO</td>
@@ -176,13 +176,13 @@
 </body>
 <footer>
     <div>
-        <p class="arriba">En caso de dudas o aclaraciones contactanos. <br>Horarios de atención: <br>10:00 a 15:00 hrs.</p>
+        <p class="arriba">En caso de dudas o aclaraciones contáctanos. <br>Horarios de atención: <br>10:00 a 15:00 hrs.</p>
         <div class="row">
             <div class="col-6">
-                <p>Correo: <br>mauricio.gutierrez.cruz@outlook<br>saidcorona80@hotmail.com</p>
+                <p>Correo: <br>mauricio.gutierrez.cruz@outlook<br>saidcorona80@gmail.com</p>
             </div>
             <div class="col-6">
-                <p>Telefono: <br>55 4835 0411 <br>56 1078 3531</p>
+                <p>Teléfono: <br>55 4835 0411 <br>56 1078 3531</p>
             </div>
         </div>
 
