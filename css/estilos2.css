@@ -1,0 +1,94 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(0, 0, 0, 0.664);
+    /* background: url(../img/fondo.jpg) no-repeat center top; */
+    background-size: cover;
+    font-family: cursive;
+    font-size: 10px;
+}
+
+footer {
+    margin: auto;
+    padding: 0px;
+    width: 100vw;
+    color: white;
+    background: #343A40;
+    text-align: center;
+    font-family: sans-serif;
+    font-style: normal;
+}
+
+.arriba {
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    color: white;
+    background: rgba(0, 0, 0, 0.397);
+}
+
+.abajo {
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    color: white;
+    background: rgba(0, 0, 0, 0.397);
+}
+
+
+/* iframe {
+    width: 100%;
+    height: 90px;
+    border-style: none;
+} */
+
+
+/* .container {
+    top: 50%;
+    left: 50%;
+    position: fixed;
+    transform: translate(-50%, -50%);
+}
+
+.panel-body {
+    padding: 15px;
+    background: rgba(228, 219, 219, 0.836);
+    color: rgba(75, 9, 9, 0.952);
+}
+
+.panel-body p {
+    margin: 0 25px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.panel-body img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.panel-body label {
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-bottom: 0;
+}
+
+.panel-body input {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 2px;
+}
+
+.panel-body input[type="text"],
+.panel-body input[type="password"] {
+    border: none;
+    border-bottom: 4px solid rgba(55, 240, 169, 0.932);
+    background: transparent;
+    outline: none;
+    height: 30px;
+    color: rgba(255, 255, 255, 0.945);
+    font-size: 18px;
+    font-family: sans-serif;
+} */

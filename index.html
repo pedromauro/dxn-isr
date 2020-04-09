@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carga de Excel</title>
+    <title>ISR</title>
     <link rel="stylesheet" href="css/estilos.css">
-    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-grid.min.css">
-    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-reboot.min.css">
-    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script type="text/javascript" src="bootstrap/js/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="librerias/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="librerias/bootstrap/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" type="text/css" href="librerias/bootstrap/css/bootstrap-reboot.min.css">
+    <script type="text/javascript" src="librerias/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="librerias/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="librerias/bootstrap/js/jquery-3.4.1.min.js"></script>
 </head>
 
 <body>
@@ -20,15 +20,22 @@
             <div class="col"></div>
             <div class="col-xs-10">
                 <div class="panel-body">
-                    <p>Carga de documento</p>
+                    <p>Sistema de calculo de ISR</p>
                     <p>
                         <img class="img-circle img-responsive center-block" src="img/secun.png" alt="Logo">
                     </p>
                     <form action="load.php" method="POST" enctype="multipart/form-data">
-                        <input type="file" name="archivo">
+                        <!-- <input type="file" name="archivo">
+                        <br><br> -->
+                        <div class="custom-file">
+                            <input type="file" class="custom-file-input" name="archivo" lang="es">
+                            <label class="custom-file-label" for="customFileLang">Seleccionar Archivo</label>
+                        </div>
                         <br><br>
-                        <input type="submit" value="Calcular ISR" name="isr">
-                        <input type="submit" value="Calculo inverso ISR" name="isrI"> -->
+                        <div class="align-middle">
+                            <button class="btn btn-primary" type="submit" name="isr">Calculo de ISR</button> &nbsp;&nbsp;&nbsp;&nbsp;
+                            <button class="btn btn-primary" type="submit" name="isrI">Calculo inverso de ISR</button>
+                        </div>
                     </form>
                 </div>
             </div>
@@ -36,5 +43,6 @@
         </div>
     </div>
 </body>
+
 
 </html>

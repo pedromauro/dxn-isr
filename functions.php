@@ -5,8 +5,8 @@
     {
         $servername = "localhost";
         $database = "dxn_mex";
-        $username = "dxn_user";
-        $password = "pericocampanitA11";
+        $username = "root";
+        $password = "";
         // Create connection
         $conn = mysqli_connect($servername, $username, $password, $database);
         // Check connection

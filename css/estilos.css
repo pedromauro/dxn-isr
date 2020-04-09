@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../img/15153_12717272809...058144_n-1deca30.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    top: 50%;
+    left: 50%;
+    position: fixed;
+    transform: translate(-50%, -50%);
+}
+
+.panel-body {
+    padding: 15px;
+    background: rgba(206, 192, 192, 0.37);
+    color: rgba(255, 255, 255, 0.699);
+}
+
+.panel-body p {
+    margin: 0 25px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.panel-body img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+}
+
+
+/* .panel-body label {
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-bottom: 0;
+}
+
+.panel-body input {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 2px;
+}
+
+.panel-body input[type="text"],
+.panel-body input[type="password"] {
+    border: none;
+    border-bottom: 4px solid rgba(55, 240, 169, 0.932);
+    background: transparent;
+    outline: none;
+    height: 30px;
+    color: rgba(255, 255, 255, 0.945);
+    font-size: 18px;
+    font-family: sans-serif;
+} */

@@ -1,4 +1,4 @@
-
+<!-- 
 
 <div>
     <table class = "table table-hover table-condensed" id="iddataTable">
@@ -50,4 +50,4 @@
             </tr>
         </tbody>
     </table>
-</div>
+</div> -->
